@@ -1,21 +1,21 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 
-function CounterUsingClassState() {
-  const [count, setcount]= useState(0);
+// function CounterUsingClassState() {
+//   const [count, setcount]= useState(0);
 
-  function abebe(){
-    setcount((count)=>count+1)
-  }
+//   function abebe(){
+//     setcount((count)=>count+1)
+//   }
 
-  return (
-    <div>
-     {/* <button onClick={abebe}>Count: {count}</button>  */}
-     {/* method2 */}
-     <button onClick={()=>{setcount((count)=>count+1)}}>Count: {count}</button>
-    </div>
-  )
-}
-export default CounterUsingClassState;
+//   return (
+//     <div>
+//      {/* <button onClick={abebe}>Count: {count}</button>  */}
+//      {/* method2 */}
+//      <button onClick={()=>{setcount((count)=>count+1)}}>Count: {count}</button>
+//     </div>
+//   )
+// }
+// export default CounterUsingClassState;
 
 // import React, { Component } from "react";
 

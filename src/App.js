@@ -26,13 +26,12 @@ import Component1 from "./Components/UseContext/Component1";
 import UsingUseContext from "./Components/UseContext/UsingUseContext";
 
 // First creat context
-export const MyContext = React.createContext();
+// export const MyContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      <UsingClassLifeCycleComponent />
-      <CounterUsingClassState />
+      <ClassStateExample />
     </div>
   );
 }
