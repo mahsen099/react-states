@@ -16,7 +16,7 @@ class ClassStateExample extends Component {
     // alert("You clicked me!!");
     this.setState({
     state1: this.state.state1 +1
-    })
+  })
     this.setState((state)=>{
       if(state.state1%2==0){
 state.state3=state.state1
